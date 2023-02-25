@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Time to undetectable ETG level</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Time to ETG clearance:</h1>
+    <h4>(Defined as ETG < 300 ng/ml)</h4>
+    <h3 id ="time-el">0</h3>
+    <h4 id ="halflife-el"></h4>
+    <h4 id ="halflife2-el"></h4>
+    <form class="info">
+    <label for="fdrinks"># of drinks consumed</label><br>
+      <input type="text" id="drinks" name="fdrinks"><br><br>
+    <button id="calculate-btn" form="info" onclick="calculate()">Submit</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+  </body>
+</html>
