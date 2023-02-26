@@ -1,0 +1,47 @@
+body {
+  background-image: url(Carbon.jpg);
+  background-size: cover;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  color: crimson;
+}
+
+#halflife-el {
+  font-size: 15px;
+  color: chartreuse;
+}
+
+#halflife2-el {
+  font-size: 15px;
+  color: chartreuse;
+}
+
+input, select, textarea {
+    background-color: crimson;
+    color: white;
+}
+
+button {
+    font-weight: bold;
+    color: black;
+}
