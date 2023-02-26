@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <title>Time to undetectable ETG level</title>
-  </head>
-  <body>
-    <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-    <h1>Time to ETG clearance:</h1>
-    <h4>(Defined as ETG < 300 ng/ml)</h4>
-    <h3 id ="time-el">0</h3>
-    <h4 id ="halflife-el"></h4>
-    <h4 id ="halflife2-el"></h4>
-    <form class="info">
-    <label for="fdrinks"># of drinks consumed</label><br>
-      <input type="text" id="drinks" name="fdrinks"><br><br>
-    <button type="button" class="btn btn-light" id="calculate-btn" form="info" onclick="calculate()">Submit</button>
-    <button type="button" class="btn btn-light" id="reset-btn" form="info" onclick="reset()">Reset</button>
-  </form>
-</div>
 
-  <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script defer src="login.js"></script>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">Login</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
+  
+</body>
+
 </html>
