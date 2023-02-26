@@ -17,3 +17,13 @@ function calculate() {
   halflife2El.textContent =
     " Half-life (hrs): 3 (normal liver) - 3.5 (you've drank alot for a while now)";
 }
+
+function reset() {
+  let timeEl = document.getElementById("time-el");
+  let halflifeEl = document.getElementById("halflife-el");
+  let halflife2El = document.getElementById("halflife2-el");
+  let drinksEl = document.getElementById("drinks").value = "";
+  timeEl.textContent = "";
+  halflifeEl.textContent = "";
+  halflife2El.textContent = "";
+}
