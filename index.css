@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+.card {
+  margin: auto;
+}
+
 h1 {
   font-size: 40px;
   margin-top: 10px;
