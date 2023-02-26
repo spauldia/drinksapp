@@ -23,7 +23,7 @@ function reset() {
   let halflifeEl = document.getElementById("halflife-el");
   let halflife2El = document.getElementById("halflife2-el");
   let drinksEl = document.getElementById("drinks").value = "";
-  timeEl.textContent = "";
+  timeEl.textContent = "0";
   halflifeEl.textContent = "";
   halflife2El.textContent = "";
 }
